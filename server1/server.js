@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";
 import connectDB from "./config/db.js";
 import taskRouter from "./routes/taskRouter.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 
