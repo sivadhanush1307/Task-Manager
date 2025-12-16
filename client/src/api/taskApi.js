@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://task-manager-backend-ibgo.onrender.com",
+  baseURL: "https://task-manager-backend-ibgo.onrender.com/api",
 });
 
 export const fetchTasks = () => API.get("/tasks");
