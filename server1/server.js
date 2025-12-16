@@ -15,7 +15,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",               // Vite local
-      "https://task-manager-frontend.onrender.com" // Render frontend
+      "https://task-manager-frontend-rjdw.onrender.com" // Render frontend
       
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
